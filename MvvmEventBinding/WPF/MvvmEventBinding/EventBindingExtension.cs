@@ -9,6 +9,7 @@ namespace MvvmEventBinding
 	/// <summary>
 	/// Custom markup extension that allows direct binding of Commands to events.
 	/// </summary>
+	[MarkupExtensionReturnType(typeof(Delegate))]
 	public class EventBindingExtension : MarkupExtension
 	{
 		/// <summary>
